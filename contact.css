@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(to right, #ae9415, #ca6915);
+    margin: 0;
+    padding: 0;
+}
+
+.topbutton-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    right: 1%;
+}
+
+.topbutton-container button:hover {
+    text-decoration: underline;
+}
+
+.topbutton-container button {
+    background: transparent;
+    border: 2px solid white; /* Set the border color as per your preference */
+    color: black; /* Set the text color as per your preference */
+    padding: 10px 20px; /* Adjust padding according to your design */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.topbar {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+}
+
+.homeButton {
+    position: absolute;
+    background: transparent;
+    border: 2px solid white;
+    top: 2%;
+    left: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.contact-container {
+    text-align: center;
+    margin: 80px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container h1 {
+    font-size: 36px;
+    color: #ca6915;
+}
+
+.contact-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-details a, .contact-details p {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ae9415;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+    color: #ca6915;
+}

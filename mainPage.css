@@ -1,0 +1,94 @@
+
+/* NEED FOR ALL PAGES */
+body{
+    background: linear-gradient(to right, #0095ff,#ae15ab);
+    margin: 0;
+    padding:0;
+}
+.topbutton-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    right: 1%;
+}
+.topbutton-container button:hover{
+    text-decoration: underline;
+}
+.topbutton-container button{
+    background: transparent;
+    border: 2px solid white; /* Set the border color as per your preference */
+    color: black; /* Set the text color as per your preference */
+    padding: 10px 20px; /* Adjust padding according to your design */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    z-index:1;
+  }
+.nameSeb{
+    position: absolute;
+    top:30%;
+    left: 20%;
+}
+.seb{
+    color:white;
+}
+.topLeftName{
+    position:absolute;
+    top: 0.5%;
+    left: 1.5%;
+    font-family: "Papyrus", fantasy;
+}
+.topbar {
+    background-color: white;
+    height:60px;
+    width: 100%
+  }
+  /*STOP HERE */
+
+
+.textFront{
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 25%;
+}
+.profPic {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 150px;
+    left: 70%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    border-radius: 50%;
+
+    /* Apply linear gradient for left to right effect */
+    background: linear-gradient(to right, #0095ff, #ae15ab); /* Use your preferred gradient colors */
+    padding: 5px; /* Add padding to control the thickness of the border */
+}
+.logoImages-containter {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    column-gap: 10px;
+    top: 60%;
+    right: 70%;
+}
+.logoImages-containter img{
+    width:35px;
+    height:auto;
+}
+.containerForText {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.typewriter {
+    overflow: hidden;
+    border-right: 0em solid #0095ff; /* Cursor effect */
+    white-space: pre-line; /* Prevent text from wrapping */
+    font-size: 25px;
+}

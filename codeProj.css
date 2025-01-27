@@ -1,0 +1,134 @@
+body {
+    background: linear-gradient(to right, #ae15ab, #ae1529);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.topbutton-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    right: 1%;
+}
+
+.topbutton-container button:hover {
+    text-decoration: underline;
+}
+
+.topbutton-container button {
+    background: transparent;
+    border: 2px solid white;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.topbar {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+}
+
+.homeButton:hover {
+    text-decoration: underline;
+}
+
+.homeButton {
+    position: absolute;
+    background: transparent;
+    border: 2px solid white;
+    color: black;
+    top: 2%;
+    left: 2%;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Projects Section */
+.project-section {
+    margin: 80px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-category {
+    margin-bottom: 40px;
+}
+
+.project-category h1 {
+    font-size: 32px;
+    color: #ae1529;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #ae1529;
+    border-radius: 10px;
+    background: rgba(174, 21, 171, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+    font-size: 24px;
+    color: #ae1529;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.project-images {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.project-images1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.top-image img {
+    display: block;
+    width: 100%; /* Adjust as necessary */
+    max-width: 1300px;
+}
+
+.bottom-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bottom-images img {
+    width: 100%; /* Adjust as necessary */
+    max-width: 573px; /* Ensure smaller size for these */
+}
+
+.project-images img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}

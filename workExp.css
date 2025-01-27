@@ -1,0 +1,127 @@
+body {
+    background: linear-gradient(to right, #d61630, #0bffc6);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.topbutton-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    right: 1%;
+}
+
+.topbutton-container button:hover {
+    text-decoration: underline;
+}
+
+.topbutton-container button {
+    background: transparent;
+    border: 2px solid white;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.topbar {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+}
+
+.homeButton {
+    position: absolute;
+    background: transparent;
+    border: 2px solid white;
+    color: black;
+    top: 2%;
+    left: 2%;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Work Experience Section */
+.work-experience-section {
+    margin: 80px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.work-experience-category {
+    margin-bottom: 40px;
+}
+
+.work-experience-category h1 {
+    font-size: 32px;
+    color: #d61630;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.work-experience {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #d61630;
+    border-radius: 10px;
+    background: rgba(214, 22, 48, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.work-experience h2 {
+    align-items: center;
+    font-size: 24px;
+    color: #d61630;
+    margin-bottom: 10px;
+}
+
+.work-experience p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+.work-experience1 .image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    grid-template-rows: auto auto; /* Two rows for the images */
+    gap: 10px; /* Add space between images */
+    max-width: 900px; /* Optional: Limit grid width */
+    margin: 0 auto; /* Center the grid */
+}
+
+.work-experience1 .image-grid img {
+    width: 100%; /* Make images responsive to their container */
+    height: auto; /* Maintain image aspect ratio */
+    object-fit: cover; /* Ensures images fill their grid cells */
+    border: 2px solid #ccc; /* Optional: Add a border around images */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+
+.work-experience-images {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+
+}
+
+.work-experience-images img {
+    width: 50%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
