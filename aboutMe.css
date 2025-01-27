@@ -77,15 +77,21 @@ body {
 }
 
 .about-me-images {
-    display: block;
-    gap: 20px;
-    justify-content: space-between;
+    display: flex;
+    gap: 20px; /* Spacing between images */
+    justify-content: center; /* Center images horizontally */
     margin-bottom: 20px;
+    flex-wrap: wrap; /* Allow images to wrap if needed */
 }
 
 .about-me-images img {
-    width: 48%;
-    height: auto;
+    width: 800; /* Fixed width */
+    height: 600px; /* Fixed height */
+    object-fit: cover; /* Maintain focus on image content */
     border: 1px solid #ccc;
     border-radius: 8px;
+}
+.rotate-180 {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease; /* Optional: Add smooth rotation effect */
 }
